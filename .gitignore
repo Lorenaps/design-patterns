@@ -1,2 +1,5 @@
 # Arquivos do projeto
 *.idea
+
+# Arquivos pycache
+*__pycache__
