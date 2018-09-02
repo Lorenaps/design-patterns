@@ -3,24 +3,24 @@
     Permite criar novas listas a partir de listas existentes
     fazendo filtros ou modificações nos elementos originais
 '''
-numbers = [1, 2, 3, 4, 5]
+NUMBERS = [1, 2, 3, 4, 5]
 
-mod = [n for n in numbers if n % 2 == 0]
+MOD = [n for n in NUMBERS if n % 2 == 0]
 
-print(mod)
+print(MOD)
 
-matrix = [[1,2,3], [4,5,6], [7,8,9]]
+MATRIX = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
-print(matrix)
+print(MATRIX)
 
-rows = [row for row in matrix]
+ROWS = [row for row in MATRIX]
 
-print(rows)
+print(ROWS)
 
-elements = [n for row in matrix for n in row]
+ELEMENTS = [n for row in MATRIX for n in row]
 
-print(elements)
+print(ELEMENTS)
 
-squares = [n**2 for row in matrix for n in row]
+SQUARES = [n**2 for row in MATRIX for n in row]
 
-print(squares)
+print(SQUARES)
