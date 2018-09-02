@@ -14,18 +14,32 @@ import time
 
 #Função decorator
 def timing_function(some_function):
+    '''
+        Função para
+        :param some_function: função a qual queremos contabilizar o
+        tempo de execução.
+        :return: wrapper: função interna que contabiliza o tempo de
+        execução de outra função.
+    '''
     def wrapper():
-        t1 = time.time()
+        '''
+            Fução para contabiliza o tempo de execução de outra função.
+        '''
+        start = time.time()
         some_function()
-        t2 = time.time()
-        print("Time it took to run the function: " + str((t2 - t1)) + "\n")
+        end = time.time()
+        print("Time it took to run the function: " + str((end - start)) + "\n")
     return wrapper
 
 #Função que pode ser decorada
 @timing_function
 def my_function():
+    '''
+        Função que soma o conjunto de números gerados aleatoriamente
+        e adicionados a uma lista.
+    '''
     num_list = []
-    for num in (range(0, 10000)):
+    for num in range(0, 10000):
         num_list.append(num)
     print("\nSum of all the numbers: " + str((sum(num_list))))
 
