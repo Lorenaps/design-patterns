@@ -1,6 +1,7 @@
 '''
-    Decorator em python é uma função que permite extender uma outra função
-    sem precisar modificar o código explicitamente.
+    Usando Decorator em python: Temos uma função que permite extender
+    o comportamento de um segunda função sem precisar modificar o
+    código da segunda função explicitamente.
 
     Ele é uma função que recebe outra função como parâmentro. E para
     utilizarmos é só colocar antes da função que vai ser decorada a notação
@@ -11,6 +12,7 @@
 
 import time
 
+#Função decorator
 def timing_function(some_function):
     def wrapper():
         t1 = time.time()
@@ -19,6 +21,7 @@ def timing_function(some_function):
         print("Time it took to run the function: " + str((t2 - t1)) + "\n")
     return wrapper
 
+#Função que pode ser decorada
 @timing_function
 def my_function():
     num_list = []
