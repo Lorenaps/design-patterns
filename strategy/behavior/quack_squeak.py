@@ -3,6 +3,9 @@
 from designPatterns.strategy.interface.quack import Quack
 
 class QuackSqueak(Quack):
+    '''
+        Implementação concreta de um supertipo (Quack)
+    '''
 
     def quack(self):
         print("Squeak!")
