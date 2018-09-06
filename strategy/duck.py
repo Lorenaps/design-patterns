@@ -28,6 +28,12 @@ class Duck:
         self.name = name
 
     def perform_fly(self):
+        '''
+            Princípio de programar para um supertipo
+            Nesse caso você sabe que o objeto é capaz de voar,
+            mas os detalhes da implementação desse voo ficam
+            restritos e reutilizáveis dentro de outra classe
+        '''
         self.fly_behavior.fly()
 
     def perform_quack(self):

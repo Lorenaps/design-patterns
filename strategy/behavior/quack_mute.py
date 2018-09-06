@@ -3,6 +3,9 @@
 from designPatterns.strategy.interface.quack import Quack
 
 class QuackMute(Quack):
+    '''
+        Implementação concreta de um supertipo (Quack)
+    '''
 
     def quack(self):
         print("I'm not quackable")

@@ -4,6 +4,9 @@ from designPatterns.strategy.interface.fly import Fly
 
 
 class FlyWithWings(Fly):
+    '''
+        Implementação concreta de um supertipo (Fly)
+    '''
 
     def __init__(self):
         super().__init__()

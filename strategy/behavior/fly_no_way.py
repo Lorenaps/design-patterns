@@ -4,6 +4,9 @@ from designPatterns.strategy.interface.fly import Fly
 
 
 class FlyNoWay(Fly):
+    '''
+        Implementação concreta de um supertipo (Fly)
+    '''
 
     def fly(self):
         print("I'm not flyable!")
