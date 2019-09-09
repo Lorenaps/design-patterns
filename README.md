@@ -5,10 +5,15 @@ Projeto criado para estudar orientação a objeto e padrões de projeto na lingu
 
 **Primeiro uma revisita aos paradigmas de programação:**
 > Funcional: Avaliação de funções matemáticas 'f(x) = x + 2'.
+
 > Lógico (restritivo): Utilizado em aplicações voltadas para inteligência artificial. Se utiliza de proposições, regras de inferência e busca (estratégia para controle das inferências) ~ Lembra de prolog, meu anjo?
+
 > Declarativo: Descrevem o que fazem e não exatamente como fazem. Linguagens de marcação são um bom exemplo.
+
 > Imperativo (Procedimentos): Especifica em procedimentos os passos que o programa deve seguir tendo a possibilidade de chamar esses procedimentos em qualquer parte do código. O código fica separado em módulos.
+
 > Orientado a objetos: Construção do código utilizando conceitos mais próximos do mundo real. Dividindo o sistema em um conjunto de classes que definem objetos, e esses objetos são representados com atributos (variáveis) e comportamentos (métodos).
+
 > Orientado a eventos: Geralmente linguagens que dão suporte a interface gráfica.
 
 Bom... já sabemos que na orientação a objetos dividimos o sistema em um conjunto de classes que vão representar atributos e métodos.
