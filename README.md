@@ -21,12 +21,18 @@ Mas pensando em Python é preciso dar uma voltinha em outros conceitos primeiro.
 
 ...
 
-Alguns conceitos importantes: 
+Alguns conceitos e abreviações: 
 
 - **Polimorfismo** significa a possibilidade de programar considerando abstrações que poderão ser especializadas quando necessário e, inclusive, intercamibadas. Programar para um supertipo é vida <3
 O polimorfismo pode ser aplicado através a utilização de um supertipo ou através de herança, quando utilizamos a *sobrecarga de métodos*.
 
-- 
+- **Overriding** - Sobrescrevendo - Quando uma classe filha tem a possibilidade de utilizar o mesmo método da classe mãe usando mesmo nome e parâmentros mas a implementação diferente.
+
+- **Overloading** - Sobrecarregando - Quando uma classe filha tem a possibilidade de utilizar o mesmo método da classe mãe usando apenas parâmentros diferentes.
+
+- DRY - *'Don't repeat yourself'* (TODO: desenvolver)
+
+- MRO - *'Method Resolution Order'* (TODO: desenvolver)
 
 Referências:
 
@@ -35,6 +41,9 @@ Referências:
 - [Python e Orientação a Objetos](https://www.caelum.com.br/apostila-python-orientacao-objetos/#null)
 
 ## Design Patterns
+
+São soluções para problemas comuns :)
+
 
 ### Classificação dos Padrões
 
