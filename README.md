@@ -40,6 +40,13 @@ Referências:
 - [OOP | Polimorfismo](https://deviniciative.wordpress.com/2019/08/19/oop-polimorfismo/)
 - [Python e Orientação a Objetos](https://www.caelum.com.br/apostila-python-orientacao-objetos/#null)
 
+
+## Princípios
+
+- Programe para uma interface
+- Designs devem ser abertos para extensão, mas fechados para modificação
+
+
 ## Design Patterns
 
 São soluções para problemas comuns :)
@@ -50,7 +57,7 @@ São soluções para problemas comuns :)
 #### Padrões para Criação
 Organizar em um sistema. Definição e criação de um objeto.
 
-- Factory
+- Factory: Define uma interface para criação de um objeto, mas adia a criação da instância para o tempo de execução.
 - Builder
 - Prototype
 - Singleton
