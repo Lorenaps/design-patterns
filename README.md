@@ -52,7 +52,7 @@ Organizar em um sistema. Definição e criação de um objeto.
 
 - Factory: Define uma interface para criação de um objeto, mas adia a criação da instância para o tempo de execução.
 - Abtract Factory: Provê uma interface para criar famílias de objetos relacionados sem especificar sua classe concreta.
-- Builder: 
+- Builder: Busca separar a construção de um objeto complexo de sua representação, para que o mesmo processo de construção possa criar diferentes representações.
 - Prototype
 - Singleton
 - Borg
