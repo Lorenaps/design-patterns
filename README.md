@@ -40,13 +40,6 @@ Referências:
 - [OOP | Polimorfismo](https://deviniciative.wordpress.com/2019/08/19/oop-polimorfismo/)
 - [Python e Orientação a Objetos](https://www.caelum.com.br/apostila-python-orientacao-objetos/#null)
 
-
-## Princípios
-
-- Programe para uma interface
-- Designs devem ser abertos para extensão, mas fechados para modificação
-
-
 ## Design Patterns
 
 São soluções para problemas comuns :)
@@ -58,7 +51,8 @@ São soluções para problemas comuns :)
 Organizar em um sistema. Definição e criação de um objeto.
 
 - Factory: Define uma interface para criação de um objeto, mas adia a criação da instância para o tempo de execução.
-- Builder
+- Abtract Factory: Provê uma interface para criar famílias de objetos relacionados sem especificar sua classe concreta.
+- Builder: 
 - Prototype
 - Singleton
 - Borg
@@ -91,11 +85,10 @@ Organização da comunicação e responsabilidade entre as entidades.
     
 ## Alguns Princípios
 
-- Open-closed: Entidades devem ser abertas para extensão, mas fechadas para modificação.
+- Open-closed: Entidades devem ser abertas para extensão, mas fechadas para modificação (TODO: desenvolver)
 - Programe para uma interface e não para uma implementação
 - Entidades com responsabilidade única
-
-- TODO: Estudar mais o SOLID
+- SOLID (TODO: desenvolver)
 
 
 ## Links Úteis
