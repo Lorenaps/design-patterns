@@ -85,7 +85,7 @@ Organização da comunicação e responsabilidade entre as entidades.
     
 ## Alguns Princípios
 
-- Open-closed: Entidades devem ser abertas para extensão, mas fechadas para modificação (TODO: desenvolver)
+- Open-closed: Entidades devem ser abertas para extensão, mas fechadas para modificação - Eu consigo entender melhor olhando a aplicação do padrão strategy. Se vc tem uma família da patos para um jogo mas surge um novo tipo de pato que voa de uma forma diferente voce pode implementar 
 - Programe para uma interface e não para uma implementação
 - Entidades com responsabilidade única
 - SOLID (TODO: desenvolver)
