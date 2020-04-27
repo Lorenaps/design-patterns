@@ -1,9 +1,9 @@
 # Orientação a Objeto e Design Patterns
 Projeto criado para estudar orientação a objeto e padrões de projeto na linguagem Python.
 
-## Orientação a Objeto
+## Revisão
 
-**Primeiro uma revisita aos paradigmas de programação:**
+**Relembrando paradigmas de programação:**
 > Funcional: Avaliação de funções matemáticas 'f(x) = x + 2'.
 
 > Lógico (restritivo): Utilizado em aplicações voltadas para inteligência artificial. Se utiliza de proposições, regras de inferência e busca (estratégia para controle das inferências) ~ Lembra de prolog, meu anjo?
@@ -16,29 +16,18 @@ Projeto criado para estudar orientação a objeto e padrões de projeto na lingu
 
 > Orientado a eventos: Geralmente linguagens que dão suporte a interface gráfica.
 
-Bom... já sabemos que na orientação a objetos dividimos o sistema em um conjunto de classes que vão representar atributos e métodos.
-Mas pensando em Python é preciso dar uma voltinha em outros conceitos primeiro.
+**Alguns conceitos e abreviações:** 
 
-...
-
-Alguns conceitos e abreviações: 
-
-- **Polimorfismo** significa a possibilidade de programar considerando abstrações que poderão ser especializadas quando necessário e, inclusive, intercamibadas. Programar para um supertipo é vida <3
+> **Polimorfismo** significa a possibilidade de programar considerando abstrações que poderão ser especializadas quando necessário e, inclusive, intercamibadas. Programar para um supertipo é vida <3
 O polimorfismo pode ser aplicado através a utilização de um supertipo ou através de herança, quando utilizamos a *sobrecarga de métodos*.
 
-- **Overriding** - Sobrescrevendo - Quando uma classe filha tem a possibilidade de utilizar o mesmo método da classe mãe usando mesmo nome e parâmentros mas a implementação diferente.
+> **Overriding** - Sobrescrevendo - Quando uma classe filha tem a possibilidade de utilizar o mesmo método da classe mãe usando mesmo nome e parâmentros mas a implementação diferente.
 
-- **Overloading** - Sobrecarregando - Quando uma classe filha tem a possibilidade de utilizar o mesmo método da classe mãe usando apenas parâmentros diferentes.
+> **Overloading** - Sobrecarregando - Quando uma classe filha tem a possibilidade de utilizar o mesmo método da classe mãe usando apenas parâmentros diferentes.
 
-- DRY - *'Don't repeat yourself'* (TODO: desenvolver)
+> DRY - *'Don't repeat yourself'* (todo: desenvolver)
 
-- MRO - *'Method Resolution Order'* (TODO: desenvolver)
-
-Referências:
-
-- [Linguagens e paradigmas de programação](https://www.treinaweb.com.br/blog/linguagens-e-paradigmas-de-programacao/)
-- [OOP | Polimorfismo](https://deviniciative.wordpress.com/2019/08/19/oop-polimorfismo/)
-- [Python e Orientação a Objetos](https://www.caelum.com.br/apostila-python-orientacao-objetos/#null)
+> MRO - *'Method Resolution Order'* (todo: desenvolver)
 
 ## Design Patterns
 
@@ -82,15 +71,26 @@ Organização da comunicação e responsabilidade entre as entidades.
         print(i)
     ```
     Nesse caso nós não precisamos nos preocupar se o conjunto tem elementos, quantos elementos são... Internamente o 'for' sabe como percorrer aquele conjunto e o que fazer enquanto ele tiver elementos.
-    
-## Alguns Princípios
 
-- Open-closed: Entidades devem ser abertas para extensão, mas fechadas para modificação - Eu consigo entender melhor olhando a aplicação do padrão strategy. Se vc tem uma família da patos para um jogo mas surge um novo tipo de pato que voa de uma forma diferente voce pode implementar 
-- Programe para uma interface e não para uma implementação
-- Entidades com responsabilidade única
-- SOLID (TODO: desenvolver)
+- Injeção de dependência: Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender de abstrações. Tipo de injeção de dependência: Por construtor, por interface e por propriedades.
+
+### Alguns Princípios
+
+> Open-closed: Entidades devem ser abertas para extensão, mas fechadas para modificação - Eu consigo entender melhor olhando a aplicação do padrão strategy. Se vc tem uma família da patos para um jogo mas surge um novo tipo de pato que voa de uma forma diferente voce pode implementar 
+
+> Programe para uma interface e não para uma implementação
+
+> Entidades com responsabilidade única
+
+> SOLID (TODO: desenvolver)
 
 
-## Links Úteis
-* [Sobre o padrão Decorator em Python](https://pythonhelp.wordpress.com/2013/06/09/entendendo-os-decorators/) - Artigo do Python Help
-* [Curso na Udemy](https://www.udemy.com/python-design-patterns/) - Curso criado por Packt Publishing
+## Referências e Links Úteis
+
+- [Linguagens e paradigmas de programação](https://www.treinaweb.com.br/blog/linguagens-e-paradigmas-de-programacao/)
+- [OOP | Polimorfismo](https://deviniciative.wordpress.com/2019/08/19/oop-polimorfismo/)
+- [Python e Orientação a Objetos](https://www.caelum.com.br/apostila-python-orientacao-objetos/#null)
+- [Python Orientado a Objetos - Grupo Python](https://www.dcc.ufrj.br/~fabiom/mab225/pythonoo.pdf)
+- [Sobre o padrão Decorator em Python](https://pythonhelp.wordpress.com/2013/06/09/entendendo-os-decorators/) - Artigo do Python Help
+- [Injeção de Dependência por Eduardo Lanfredi](https://medium.com/@eduardolanfredi/inje%C3%A7%C3%A3o-de-depend%C3%AAncia-ff0372a1672)
+- [Curso na Udemy](https://www.udemy.com/python-design-patterns/) - Curso criado por Packt Publishing
