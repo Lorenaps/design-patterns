@@ -3,3 +3,6 @@
 
 # Arquivos pycache
 *__pycache__
+
+# ipynb checkpoints 
+*.ipynb_checkpoints
