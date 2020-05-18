@@ -87,10 +87,11 @@ Organização da comunicação e responsabilidade entre as entidades.
 
 ## Referências e Links Úteis
 
+- FREEMAN, Eric; FREEMAN, E. Use a cabeça–Padrões de Projeto, 2a edição. 2009.
+- [Design Patterns](https://www.udemy.com/python-design-patterns/) - Curso na Udemy criado por Packt Publishing
 - [Linguagens e paradigmas de programação](https://www.treinaweb.com.br/blog/linguagens-e-paradigmas-de-programacao/)
 - [OOP | Polimorfismo](https://deviniciative.wordpress.com/2019/08/19/oop-polimorfismo/)
 - [Python e Orientação a Objetos](https://www.caelum.com.br/apostila-python-orientacao-objetos/#null)
 - [Python Orientado a Objetos - Grupo Python](https://www.dcc.ufrj.br/~fabiom/mab225/pythonoo.pdf)
 - [Sobre o padrão Decorator em Python](https://pythonhelp.wordpress.com/2013/06/09/entendendo-os-decorators/) - Artigo do Python Help
 - [Injeção de Dependência por Eduardo Lanfredi](https://medium.com/@eduardolanfredi/inje%C3%A7%C3%A3o-de-depend%C3%AAncia-ff0372a1672)
-- [Curso na Udemy](https://www.udemy.com/python-design-patterns/) - Curso criado por Packt Publishing
