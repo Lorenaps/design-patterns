@@ -58,9 +58,9 @@ Organizar relacionamentos entre entidades.
 #### Comportamento
 Organização da comunicação e responsabilidade entre as entidades.
 
-- Command
+- Command: Permite desconectar o autor de uma solicitação do objeto que deverá executar a ação solicitada. Encapsula uma solicitação como um objeto, o que lhe permite parametrizar outros objetos com diferentes solicitações.
 - State
-- Chain of responsability
+- Chain of responsability: Cria uma cadeia de objetos que examinam sequencialmente uma solicitação. Após examinar, cada objeto pode processá-la ou passá-la adiante para o próximo objeto na cadeia.
 - Strategy: Define uma família de algoritmos, encapsula cada um deles e dispoe uma forma de deixar todos eles intercambiáveis.
 - Observer
 - Memento
