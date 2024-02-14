@@ -1,5 +1,5 @@
 # Orientação a Objeto e Design Patterns
-Projeto criado para estudar orientação a objeto e padrões de projeto na linguagem Python.
+Projeto criado para estudar padrões de projeto e outras aplicações na linguagem Python.
 
 ## Revisão
 
