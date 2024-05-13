@@ -88,6 +88,7 @@ Organização da comunicação e responsabilidade entre as entidades.
 ## Referências e Links Úteis
 
 - FREEMAN, Eric; FREEMAN, E. Use a cabeça–Padrões de Projeto, 2a edição. 2009.
+- [O que é um padrão de projeto? | Refactoring Guru](https://refactoring.guru/pt-br/design-patterns/what-is-pattern)
 - [Design Patterns](https://www.udemy.com/python-design-patterns/) - Curso na Udemy criado por Packt Publishing
 - [Linguagens e paradigmas de programação](https://www.treinaweb.com.br/blog/linguagens-e-paradigmas-de-programacao/)
 - [OOP | Polimorfismo](https://deviniciative.wordpress.com/2019/08/19/oop-polimorfismo/)
