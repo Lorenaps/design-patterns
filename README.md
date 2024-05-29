@@ -96,3 +96,4 @@ Organização da comunicação e responsabilidade entre as entidades.
 - [Python Orientado a Objetos - Grupo Python](https://www.dcc.ufrj.br/~fabiom/mab225/pythonoo.pdf)
 - [Sobre o padrão Decorator em Python](https://pythonhelp.wordpress.com/2013/06/09/entendendo-os-decorators/) - Artigo do Python Help
 - [Injeção de Dependência por Eduardo Lanfredi](https://medium.com/@eduardolanfredi/inje%C3%A7%C3%A3o-de-depend%C3%AAncia-ff0372a1672)
+- [Convenções de nomenclatura: Camel, Pascal, Kebab e Snake case - Alura](https://www.alura.com.br/artigos/convencoes-nomenclatura-camel-pascal-kebab-snake-case)
